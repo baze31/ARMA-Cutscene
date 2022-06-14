@@ -1,0 +1,87 @@
+overviewPicture = "";
+onLoadName 		= ;
+author 			= ;									
+onLoadMission 	= ;
+loadScreen 		= "";
+
+class CfgSounds
+{
+	class intro_music
+	{
+		name = "intro_music"; // Name for mission editor
+		sound[] = {\sound\intro_music.ogg, db+1, 1.0};
+		titles[] = {0, ""};
+	};
+	class uav1
+	{
+		name = "uav1"; // Name for mission editor
+		sound[] = {\sound\uav1.ogg, db+15, 1.0};
+		titles[] = {0, ""};
+	};	
+	class uav2
+	{
+		name = "uav2"; // Name for mission editor
+		sound[] = {\sound\uav2.ogg, db+15, 1.0};
+		titles[] = {0, ""};
+	};		
+	class op1
+	{
+		name = "op1"; // Name for mission editor
+		sound[] = {\sound\op1.ogg, db+10, 1.0};
+		titles[] = {0, ""};
+	};	
+	class op2
+	{
+		name = "op2"; // Name for mission editor
+		sound[] = {\sound\op2.ogg, db+10, 1.0};
+		titles[] = {0, ""};
+	};		
+	class snip1
+	{
+		name = "snip1"; // Name for mission editor
+		sound[] = {\sound\snip1.ogg, db+10, 1.0};
+		titles[] = {0, ""};
+	};	
+	class snip2
+	{
+		name = "snip2"; // Name for mission editor
+		sound[] = {\sound\snip2.ogg, db+10, 1.0};
+		titles[] = {0, ""};
+	};	
+	class snip3
+	{
+		name = "snip3"; // Name for mission editor
+		sound[] = {\sound\snip3.ogg, db+10, 1.0};
+		titles[] = {0, ""};
+	};		
+	class snip4
+	{
+		name = "snip4"; // Name for mission editor
+		sound[] = {\sound\snip4.ogg, db+10, 1.0};
+		titles[] = {0, ""};
+	};	
+	class snip5
+	{
+		name = "snip5"; // Name for mission editor
+		sound[] = {\sound\snip5.ogg, db+10, 1.0};
+		titles[] = {0, ""};
+	};	
+	class snip6
+	{
+		name = "snip6"; // Name for mission editor
+		sound[] = {\sound\snip6.ogg, db+10, 1.0};
+		titles[] = {0, ""};
+	};		
+	class NoSound 
+	{
+		name = "NoSound";
+		sound[] = {"", 0, 1};
+		titles[] = {0, ""};
+	};
+	class convo
+	{
+		name = "convo"; // Name for mission editor
+		sound[] = {\sound\convo.ogg, db+10, 1.0};
+		titles[] = {0, ""};
+	};		
+};
